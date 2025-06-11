@@ -1,0 +1,59 @@
+#z{
+  background-color: rgb(84, 84, 249);
+  color:#f9fafb;
+   
+}
+ #w{
+    width: 100%;
+  }
+
+#y{
+    color: white;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+#x
+{
+    background-color: green;
+    color:#f9fafb;
+    border-radius: 2px;
+}
+#t{
+  background-color: #77bff7;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+
+.hamburger{
+width: 30px;
+cursor: pointer;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+height: 24px;
+margin: 10px;
+}
+.bar{
+  height: 3px;
+  background-color:white;
+  border-radius: 2px;
+}
+.menu{
+  display: flex;
+  flex-direction: column;
+  background-color: #140e0e;
+  padding: 10x;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  box-shadow: 0 2x 6px rgba(0, 0, 0, 0.2);
+}  
+
+
