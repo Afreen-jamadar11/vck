@@ -93,7 +93,7 @@ const ChatbotComponent = () => {
     if (inputValue.trim() === "") return;
     const userMessageText = inputValue;
     const newUserMessage = { text: userMessageText, sender: "user" };
-    setMessages((prevMessages) => [...prevMessages, newUserMessage]);
+    setMessages((prevMessages) => [...prevMessages, newUserMessage]); 
     setInputValue("");
     if (!isOnline) {
       setMessages((prevMessages) => [
@@ -137,7 +137,7 @@ const ChatbotComponent = () => {
       {!isChatOpen && (
         <button className="chatbot-open-button" onClick={toggleChat}>
           <img
-            src="/Images/operator.png"
+            src="Images/operator.png"
             alt="Chat Icon"
             style={{ width: "100px", height: "auto" }}
           />
@@ -152,7 +152,7 @@ const ChatbotComponent = () => {
               </span>
               <h2>Educational Chatbot</h2>
               <button className="chatbot-close-button" onClick={toggleChat}>
-               : ❌:
+                ❌
               </button>
             </div>
             {isKnowledgeBaseLoading && (
@@ -165,7 +165,6 @@ const ChatbotComponent = () => {
             )}
             {!isOnline && (
               <p className="chatbot-message offline-message">
-                :no_entry_sign:
                 🚫: You are currently offline. Please check your internet
                 connection.
               </p>
@@ -174,20 +173,17 @@ const ChatbotComponent = () => {
               {messages.map((message, index) => (
                 <div key={index} className={`message-row ${message.sender}`}>
                   {message.sender === "bot" && (
-                    <div className="avatar bot-avatar">
-                    :🤖:</div>
+                    <div className="avatar bot-avatar"> 🤖</div>
                   )}
                   <p className={`${message.sender}-message`}>{message.text}</p>
                   {message.sender === "user" && (
-                    <div className="avatar user-avatar">
-                      :👤:</div>
+                    <div className="avatar user-avatar">👤</div>
                   )}
                 </div>
               ))}
               {loading && (
                 <div className="message-row bot">
-                  <div className="avatar bot-avatar">
-                    :🤖:</div>
+                  <div className="avatar bot-avatar">🤖</div>
                   <p className="bot-message loading-indicator">Typing...</p>
                 </div>
               )}

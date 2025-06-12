@@ -1,5 +1,37 @@
-#p {
-    border: 2px solid #ddd;
-    border-collapse: collapse;
-    
+*/  .q thead,
+.q tbody,
+.q th,
+.q td,
+.q tr{
+    display: block;
+    width: auto;
+}
+
+.q th,
+.q td{
+    border: 1px solid #DEE2E6;
+    padding: 12px;
+    text-align: left;
+    font-size: 0.95em;
+}
+
+.q th{
+    background-color: #E9ECEF;
+    font-weight: bold;
+    color: #343A40;
+}
+.q tbody tr:nth-child(even) {
+    background-color: #E2F0FF;
+}
+
+.w{
+    padding: 10px auto;
+    padding: 10px;
+    font-size: 2.2em;
+    max-width: 960px;
+    height: 500px;
+    margin: 20px auto;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }

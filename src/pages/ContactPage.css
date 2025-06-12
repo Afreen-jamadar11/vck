@@ -1,0 +1,11 @@
+.w{
+    padding: 10px auto;
+    padding: 10px;
+    font-size: 2.2em;
+    max-width: 960px;
+    height: 500px;
+    margin: 20px auto;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
