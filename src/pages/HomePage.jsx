@@ -7,7 +7,7 @@ import Header from "../components/Header/Header"
 import Footer from "../components/Footer/Footer"
 const HomePage = () => {
     return (
-       <div>
+       <div className="O">
           <Header/>
             <div className="a" style={{overflow:"auto"}}>
               <img src="\Images\backgrond.jpeg" alt="vivekanand college campus" className="h"/>
