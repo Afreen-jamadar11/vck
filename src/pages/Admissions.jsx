@@ -2,7 +2,7 @@ import React from 'react';
 import './Admissions.css'
 
 import Footer from "../components/Footer/Footer";
-import { Links } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Header from '../components/Header/Header';
 
 
@@ -56,8 +56,8 @@ const Admissions = () => {
         <li><strong>Fee Payment:</strong> Complete the admission by paying the required fees.</li>
        </ol>
        <p>For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our 
-       <Links to="/coursepage">CoursePage</Links> or
-       <Links to="/contactpage">ContactPage</Links> directly
+       <Link to="/coursepage">CoursePage</Link> or
+       <Link to="/contactpage">ContactPage</Link> directly
     </p>
         </div>
          <Footer/>
