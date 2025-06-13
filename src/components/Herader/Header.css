@@ -5,7 +5,17 @@
 }
  #w{
     width: 100%;
-  }
+    background-color: #77bff7;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    }
 
 #y{
     color: white;

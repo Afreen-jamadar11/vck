@@ -7,9 +7,9 @@ import Header from "../components/Herader/Header"
 import Footer from "../components/Footer/Footer"
 const HomePage = () => {
     return (
-      <div className="a" style={{overflow:"auto"}}>
+       <div>
           <Header/>
-         <div className="f">
+            <div className="a" style={{overflow:"auto"}}>
               <img src="\Images\backgrond.jpeg" alt="vivekanand college campus" className="h"/>
           <div className="g">
             <h1><strong>Welcome to Vivekanand College!</strong></h1>
@@ -28,12 +28,12 @@ const HomePage = () => {
               <li>**Strong Placements:** Excellent career opportunities with leading companies.</li>
           </ul>
           <h3>Campus Life & Facilities</h3>
-          <div>
+          <div className="j">
           <img src="/Images/1.jpeg" alt="Campus View 1" className="k" />
           <img src="/Images/image2.jpeg" alt="campus view 2" className="j"/>
           </div><br></br><br></br><br></br><br></br>
+          <div className="i">
           <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
-          <div  className="i">
           <h4>Ready to explore our courses?</h4>
            <Link to="/coursespage"><button id="A">Explore Courses</button></Link> 
            </div>
