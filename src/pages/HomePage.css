@@ -1,15 +1,12 @@
 .a{
+  max-width: 960px;
   height: 500px;
   margin: 20px auto;
   padding: 20px;
   background-color: #FFFFFF;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  margin-bottom: 8px;
-}
+  }
 
 .b{
   color: #007BFF;
@@ -133,4 +130,12 @@
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.O{
+  background-color: aquamarine;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }

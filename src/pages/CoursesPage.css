@@ -1,0 +1,61 @@
+*/  .q thead,
+.q tbody,
+.q th,
+.q td,
+.q tr{
+    display: block;
+    width: auto;
+}
+
+.q th,
+.q td{
+    border: 1px solid #DEE2E6;
+    padding: 12px;
+    text-align: left;
+    font-size: 0.95em;
+}
+
+.q th{
+    background-color: #E9ECEF;
+    font-weight: bold;
+    color: #343A40;
+}
+.q tbody tr:nth-child(even) {
+    background-color:#f2f2f2;
+}
+.q tbody tr:hover {
+    background-color: #e2f0ff;
+}
+
+.a{
+   height: 500px;
+   margin: 20px auto;
+   padding: 20px;
+   background-color: #ffffff;
+   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+   border-radius: 8px;
+}
+#A{
+    background-color: green;
+    color: purple;
+    align-items: center;
+}
+.O{
+  background-color: aquamarine;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+#r{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #000;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
