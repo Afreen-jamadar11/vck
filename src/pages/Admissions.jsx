@@ -3,7 +3,8 @@ import './Admissions.css'
 
 import Footer from "../components/Footer/Footer";
 import { Links } from "react-router-dom";
-import Header from "../components/Header/Header";
+import Header from '../components/Header/Header';
+
 
 const Admissions = () => {
     return (
