@@ -1,8 +1,11 @@
 #s{
-     background-color: rgba(0, 0, 0, 0.062);
+     background-color: black;
     text-align: center;
     width: 100%;
-}
-#t {
-    color: aliceblue;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    height: 1cm;
 }
