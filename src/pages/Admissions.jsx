@@ -3,13 +3,13 @@ import './Admissions.css'
 
 import Footer from "../components/Footer/Footer";
 import { Links } from "react-router-dom";
-import Header from "../components/Herader/Header";
+import Header from "../components/Header/Header";
 
 const Admissions = () => {
     return (
         <div>
             <Header/>
-            <div ClassName="w" style={{overflow: "auto"}}>
+            <div>
         <h1>Admissions at Vivekanand College</h1>
         <p>Welcome to the Admissions page of Vivekanand College! We are delighted you're considering joining our vibrant academic community. Our admission process is designed to be straightforward and accessible.</p>
         <p>Please review the eligibility criteria and key dates below for the upcoming academic year. For any queries, feel free to contact our admissions office.</p>
@@ -57,11 +57,11 @@ const Admissions = () => {
        <p>For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our 
        <Links to="/coursepage">CoursePage</Links> or
        <Links to="/contactpage">ContactPage</Links> directly
-       </p>
+    </p>
         </div>
          <Footer/>
         </div>
     )
 
 }
-export default Admissions
+export default Admissions;

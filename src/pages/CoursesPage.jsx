@@ -1,6 +1,7 @@
 import React from "react"
-import Header from "../components/Herader/Header"
+
 import Footer from "../components/Footer/Footer"
+import Header from "../components/Header/Header"
 
 
 
